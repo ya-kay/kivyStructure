@@ -1,0 +1,12 @@
+#:include kv/loadingScreen.kv
+#:include kv/exampleScreen.kv
+
+
+BoxLayout:
+    ScreenManager:
+        id:screen_manager
+        ### first screen is default screen
+        LoadingScreen:
+            id: loading_screen
+        ExampleScreen:
+            id: example_screen
