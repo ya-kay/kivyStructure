@@ -11,7 +11,7 @@ class LoadingScreen(Screen):
     pass
 
 class ExampleScreen(Screen):
-    def run(self, name):
+    def run(self):
         self.parent.current = "loading_screen"
         # change screen from ExampleScreen Class
 
